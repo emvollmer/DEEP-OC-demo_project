@@ -3,7 +3,7 @@
 </div>
 
 # DEEP-OC-demo_project
-[![Build Status](https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/UC-emvollmer-DEEP-OC-demo_project/master)](https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/UC-emvollmer-DEEP-OC-demo_project/job/master)
+[![Build Status](https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/UC-emvollmer-DEEP-OC-demo_project/test)](https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/UC-emvollmer-DEEP-OC-demo_project/job/test)
 
 This is a container that will run the [demo_project](https://github.com/emvollmer/demo_project) application leveraging the DEEP as a Service API component ([DEEPaaS API V2](https://github.com/indigo-dc/DEEPaaS)).
 
