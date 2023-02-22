@@ -1,0 +1,37 @@
+{
+    "title": "demo_project",
+    "summary": "Testing cookiecutter tool following video "Tutorial - Module development"",
+    "description": [
+        "demo_project is an application using the DEEPaaS API.\n",
+        "Write additional information for your users (how to predict, how to retrain,",
+        "dataset description, training description, etc)."
+    ],
+    "keywords": [
+        "docker",
+        "api-v2"
+    ],
+    "license": "MIT",
+    "date_creation": "2023-02-22",
+    "sources": {
+		"dockerfile_repo": "https://github.com/emvollmer/DEEP-OC-demo_project",
+		"docker_registry_repo": "deephdc/uc-emvollmer-deep-oc-demo_project",
+		"code": "https://github.com/emvollmer/demo_project"
+	},
+    "continuous_integration": {
+        "build_status_badge": "https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/UC-emvollmer-DEEP-OC-demo_project/master",
+        "build_status_url": "https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/UC-emvollmer-DEEP-OC-demo_project/job/master"
+    },
+    "tosca": [
+        {
+            "title": "Mesos (CPU)",
+            "url": "https://raw.githubusercontent.com/indigo-dc/tosca-templates/master/deep-oc/deep-oc-marathon-webdav.yml",
+            "inputs": [
+                "rclone_conf",
+                "rclone_url",
+                "rclone_vendor",
+                "rclone_user",
+                "rclone_pass"
+            ]
+        }
+    ]
+}
