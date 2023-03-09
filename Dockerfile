@@ -29,6 +29,7 @@ ARG jlab=true
 # Install Ubuntu packages
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y --no-install-recommends \
+	gcc \
         git \
         curl \
         nano \
